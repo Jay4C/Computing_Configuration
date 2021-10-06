@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Configurations_a_realiser" company="" webLink="http://" view-date="2018-03-25" view-index="0" gantt-divider-location="515" resource-divider-location="300" version="2.8.4" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Configurations_a_realiser" company="" webLink="http://" view-date="2020-02-29" view-index="0" gantt-divider-location="515" resource-divider-location="300" version="2.8.10" locale="fr">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Name" width="268" order="0"/>
-        <field id="tpd4" name="Begin date" width="109" order="1"/>
-        <field id="tpd5" name="End date" width="134" order="2"/>
+        <field id="tpd3" name="Nom" width="268" order="0"/>
+        <field id="tpd4" name="Date de début" width="109" order="1"/>
+        <field id="tpd5" name="Date de fin" width="134" order="2"/>
         <option id="color.recent"><![CDATA[#00cc00]]></option>
     </view>
     <view id="resource-table">
-        <field id="0" name="Name" width="210" order="0"/>
-        <field id="1" name="Default role" width="86" order="1"/>
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -45,6 +45,10 @@ Linux Ubuntu]]></notes>
         <task id="8" name="How to Use Pen Drive As RAM ?" color="#8cb6ce" meeting="false" start="2017-12-01" duration="1" complete="0" expand="true"/>
         <task id="9" name="How to install MySQL Installer ?" color="#00cc00" meeting="false" start="2018-03-25" duration="1" complete="100" expand="true">
             <notes><![CDATA[https://dev.mysql.com/downloads/file/?id=474210]]></notes>
+        </task>
+        <task id="10" name="How to configure Snort ?" color="#8cb6ce" meeting="false" start="2020-02-29" duration="1" complete="0" thirdDate="2020-02-29" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[1) https://www.snort.org/downloads
+2) https://www.snort.org/documents]]></notes>
         </task>
     </tasks>
     <resources/>
